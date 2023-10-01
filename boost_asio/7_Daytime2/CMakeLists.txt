@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.20)
+
+set(PROJ_NAME "daytime2")
+
+project(${PROJ_NAME})
+
+find_package(Boost 1.78 REQUIRED COMPONENTS headers program_options thread)
+
+set( ${PROJ_NAME}_SRCS 
+	main.cc
+)
+
+add_executable(${PROJ_NAME} ${${PROJ_NAME}_SRCS}) 
+target_link_libraries(${PROJ_NAME} PUBLIC Boost::headers Boost::program_options Boost::thread)

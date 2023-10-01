@@ -1,0 +1,2 @@
+This repo contains code from examples in the boost library with some of my own comments in it so that if I ever need to revisit it I can get through it faster. If I see any use in it I may add more comments or examples than the boost doc depending on whether I'm making a presentation or discovering something interesting.
+The page with the documentation of this code is here: https://www.boost.org/doc/libs/1_78_0/doc/html/boost_asio/tutorial.html
